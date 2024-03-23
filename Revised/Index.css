@@ -1,0 +1,27 @@
+.MyBasicDiv {
+   text-align: center;
+}
+
+hr {
+    width: 80%;
+}
+
+button  {
+    margin-top: 50px;
+    background-color: gainsboro;
+    border-radius: 20%;
+    border-color: gray;
+}
+
+body {
+    background-color: #393d48;
+}
+
+.Result {
+    visibility: hidden;
+}
+
+#YourResult {
+    color: white;
+    font-size: 200%;
+}

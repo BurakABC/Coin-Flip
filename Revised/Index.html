@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burak's Coin Filper</title>
+
+    <link rel="stylesheet" href="Index.css" />
+  </head>
+  <body>
+    <h1 class="MyBasicDiv" style="color: aliceblue">Burak's Javascript Code Tester</h1>
+    <hr />
+
+    <div class="MyBasicDiv">
+      <button style="font-size: 300%" onclick="showIMG()">Filp Coin</button>
+    </div>
+    <br />
+    <div style="text-align: center">
+      <img
+        id="img"
+        src="Coin Flip.gif"
+        alt="CoinFilpAnimation"
+        style="height: 40%; width: 40%; display: none"
+      />
+      <img 
+        id="Heads" 
+        src="Heads.png" 
+        alt="Coin Is On Heads" 
+        style="height: 15%; width: 15%; display: none; margin-top: 5%; margin-bottom: 5%;"
+      />
+      <img
+        id="Tails"
+        src="Tails.png"
+        alt="Coin Is On Tails"
+        style="height: 15%; width: 15%; display: none; margin-top: 5%; margin-bottom: 5%;"
+      />
+    </div>
+    <hr style="width: 20%;">
+    <div style="text-align: center;"><p id="YourResult"></p></div>
+
+    <script src="Index.js"></script>
+  </body>
+</html>
